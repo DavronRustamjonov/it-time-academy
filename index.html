@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        .swiper-container {
+          width: 100%;
+          height: 300px;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 30px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      </style>
+    <title>IT-TIME ACADEMY</title>
+</head>
+<body>
+    <h1 class="visually-hidden">IT Time o`quv markazi sayti</h1>
+    <!-- ===================================HEADER============================================= -->
+    <div class="header">
+        <div class="container header__container">
+   <ul class="header__list">
+   <li class="header__item">
+    <div class="nav">
+        
+    <img style="width: 160px;height: 56px;" src="images/LOGO6666-B-CaV6E4.png" alt="LOGO">
+    </div>
+</li>
+   <nav class="header__nav">
+    <li class="header__item"><a class="header__link" href="">Biz haqimizda </a></li>
+    <li class="header__item"> <a class="header__link" href="">Kurslar </a></li>
+    <li class="header__item"><a class="header__link" href="">Yangiliklar</a></li>
+   </nav>
+   <li class="header__next-item">
+    <button class="header__button">Bepul konsultatsiya</button>
+   </li>
+   </ul>
+     </div>
+    </div>
+    
+    
+<!-- ==============================================HERO======================================================== -->
+<div class="hero">
+    <div class="container hero__container">
+    <ul class="hero__list">
+        <li class="hero__item">
+            <h1 class="hero__title">Tajribaga asoslangan  <span style="color:rgb(198,2,5) ;">ishonchli</span> kelajak</h1>
+            <p class="hero__text">Qisqa muddatda o’z portfolioyingizga ega bo’ling</p>
+            <a  href="#" class="hero__link">Ariza qoldirish</a>
+        </li>
+        <li class="hero__item">
+<img  style="width: 625px;height: 330px;" src="https://www.it-time-academy.uz/assets/banner-CFijwyVo.png" alt="IT TIME Yonalishlar">
+        </li>
+    </ul>
+
+    </div>
+</div>
+
+<!-- =============================================SECTION====================================================== -->
+<div class="section">
+    <div class="container section__container">
+        <h1 class="section__title">Nega aynan biz?</h1>
+        <hr>
+       <ul class="section__list" data-aos="zoom-out">
+        <li class="section__item"><img src="https://www.it-time-academy.uz/assets/card-jpe5Favb.png" alt="plastik karta"></li>
+        <li class="section__item"><p class="section__lead">Mablag'ingiz yo'qmi?-yechimi bor!</p></li>
+        <li class="section__item"><p class="section__text">Agarda Sizning kurslarga qatnashish uchun mablag'ingiz yetarli bo'lmasa, bundan tushkunlikka tushmang. Biz Sizga bu muammoni hal etishda yordam beramiz.</p></li>
+       </ul>
+       <hr>
+       <ul class="section__list" data-aos="zoom-out">
+        <li class="section__item"><img style="width: 165px ;height: 146;" src="https://www.it-time-academy.uz/assets/tanga-B9TvN3XN.png" alt="money"></li>
+        <li class="section__item"><p class="section__lead">Bilimingizni muvaffaqiyatli soting!</p></li>
+        <li class="section__item"><p class="section__text">Bizning kurslarimiz nafaqat aniq bir zamonaviy kasbni o'rgatadi balki, mijozlar bilan ishlashni, qo'shimcha daromad qilishni va to'g'ri ish joyini tanlashni ham o'rgatadi.</p></li>
+       </ul>
+       <hr>
+       <ul class="section__list" data-aos="zoom-out">
+        <li class="section__item"><img style="width: 165px ;height: 146;" src="https://www.it-time-academy.uz/assets/kubok-DS0KEraH.png" alt="kubik"></li>
+        <li class="section__item"><p class="section__lead">Kuchli mutaxassislardan sifatli ta'lim oling!</p></li>
+        <li class="section__item"><p class="section__text">Bizning barcha Mentorlarimiz kamida 3 yil tajribaga ega va ko'plab loyihalar muallifi bo'lgan mutaxassislardir. Bizning o'quv dasturlarimiz ular ishtirokida shakillantiriladi. Bu hammasi Sizning sifatli ta'lim olishingiz uchun!</p></li>
+       </ul>
+       <hr>
+       <ul class="section__list" data-aos="zoom-out">
+        <li class="section__item"><img style="width: 165px ;height: 146;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACACAMAAAAbIvrHAAAC/VBMVEUAAADs1JL/zifS8frK6fOyrbH/0kL/1lSanKO7YEK10NuHXVj/3l/f4b7mOSJ0X15wbXFlWlnzNwWPhIb/yyn+1Gf9WBD0URj/3XPzVB7+339hVFFdVVL+wC1tXVz3Xh3jXjDR8/jP7/T9/v7+wzVoYWDkPhR2WFPC5On844TV8vb/23ykn6CWoKPP8ff+rC36yYP/ssr/nRP/4W7/uMv/oxf/kgX9/fv/iwP/ygb/31z/4GX/shz/ZAL/q9P/mAz/xcD/xhj/qhj/dwD/bgD0JAD/wcj/uCD/1TX8LwD/pCH/tdX/4FD/zLv/OwD/4kD/1QX/u8D/3RP/2Ef/4SP/riP/fwPnnpn/4jL/hQD/r7/opaTpJgXo7vzdjIfZ9vzy8Pz/zOnkk5P/023/vwv1+v3s+P379Png6Pj91fHNeW//qcf/zbP/3KPKZFb/1R3h9/356fb/xuD/os3/vBf83/X04uj+2cDqsK7/2bL/0ar/mR7+7Oz/sLX/wLT/xpj+pDP/z8f+u4f5oIf8oHLu4/r+++3z297/wNb/y9P/nb7/5pPVhHv/wSTb4fHV2Of/4ID/xVjWb1Lt1/T/1dvuwsTsuLn/6Kb/053/xkj/3ef/88//xae/cGf8mVf/wDr/WwH/5dr/287/5sn+x3rpi3CZYVr/oK7/r6L/2ZHqe2z/rkX/8ODOs8T/8Lz/5Lf/tan/tpf+rn7wkXz/wWewUEHbHAP/SgDj0u3A3unwzM+7ZFfOVknSydvGytXQvdHCwszTqbmtnJ/9oJ79qJCYcG/eeGmsZFz/tVT9lUL/sjTIEgf++9+8usDfnq3dyeTM09/y1dX/z4b4cR7vmqaudnP4gyypu8fDsLfCo6b/unL+sGLkeE7zhEqXqbqAe37bUyvoWSrcmpC+gXzMNCDeZ1fJTjDWpqz+kKzdopzIm5mPkZXMj4y1jIvXRD7vZSMrIiLtFACghIapJxrjmIaURDKzOjGsEATXj5d4TUlhMCeNHAlJR0rTYRrxtHCf0R2uAAAAMXRSTlMAD/3+/v37/f0c/v3tK/38/o/8+9dD1LDhhGBfN765X0bNT8+c4eHSsZdyvZ5Rk96lAC63/AAADDtJREFUeNrsl11Ik1EYx5tBErQuovUF0edFH1BRVFqOWi60qCmpq0hKmjWQxARt2kZbS/Iig4xMzZrzI8gcFSoNuvZCpZs52EUmVNBFV910Hf2f55x3Z1sRvW/aRew38dLfb895dva6IEuWLFmyZMmSJcv/hek3LPgHmDcvXyTIzc1dkskqYs2C+WTx8pycYqasuIw4AQ4QB8EewbwmbM6hAtkgEnJFwkGVsHXB/GHCCIi0BhwHJfybAosM4IRFxdgGBCABiIT5LsAIFL1oYHKxlIzL5To4r3tgsiy33ZX00ovp7u0G7QQSwNwUWDavJZZLchhbvs1WlMEU6J1CiJZBCeY52Pi7thTyk9gaCiQVBRVJpgTDYGKifU4KLDzolARbMuBIKnvBcUGAQUP7mMs1ByNg/13ll1QXaN7d6XgJ7hjGEFbNSQFoALYGJNCvaoAJCPkhyb4UDqGBC8Zcq8xmC7MGWExGCtYWpVBALwIDgD5pzmOmuheBsgxwTSYvqe2mvymQW6cNn/TCfZZwOp1TOXV1/FMsKCkpK8FFnXZPmw0WsLqCVl6dPfzQC3chsOfZ6pjy8vIzRAmBAJWwx2AB2fFK1Su/tAPrXhkgG2QC+alAjOCe3lMwrV+3bicKhB37zXaeP6YPvWYnbKWlIoECyrlAJqgCvZ+M1YV2a9gLu3zn3t1edfasF/Yw4cwvLT1FcII6iLRD2K4vYB3+fDwUwNLDK60gkUhMToZAC3FLMmIrRUEdCspPyYKSMxSgZqD/i3KlPRwPhgK79+U5nUFPf39r3zUfuEa0tsZisTdvOg7fePXs2fj4rWBOPhVgCjJBLaMsMPJFucIabhkJBfLOFsY9bre7vt4n3GT3eDzN17u6/NODg2Pt7d3ddQigBKacUaegCiw6C8LRkZaQ12m3tpBf2GO17d29vXxLVoN8Deg5QTWoRTigFawy6SyIOsZbZhOF1uhJt/Bj7oNFDQB29ldn+Et/ClDXAS+igYL3CXs4GsME2N/xuKhAJWQWqCnU4Wospscm7UlhDLhcWw0VxK1RRysCsHgdHQ+/43LAJSkbFA3VDQzfn+pJYVgwAShhje6CY7dG38fD0WNUwAFNExUaqY8GGRyXBBSoQIFFb4EjWaAFnBuuOK6AjG8q/KRzaLc3k8DwzJjLbLTgKLYQO4CAL4FUuzL+6ikhT+MsXnneyYkxupONFyDgYdOXT4E0e5o1KZQ4iUIN5+TEzHYDBaOj979GHSiIiRF8g15Tp2h/obRrWAX2RGhmF/+vbagAa4AtwAiewq2JhVVJM5RhwhqPJ2ZDLSNB/5WBSOT2Jmbbn38vOI6KgkocAo0ABeqhhPnJaWXnJEm7ml++6Ol5S9wG+yWXLi80GS74dH6W1UoLyMnfljPvBqeH7nR2vmB6APwigBKSAVc3GJlBTBS0Jdhs15wzdNHdY+4QnYQIkAlqBDLh8tWrW3QVPOUCrAECTp9vi4fDCbxX4GL2EJl+MMD6yNtIJEIBaSO4sM1IwRtZ8DU6GxzkAE6AnUn6XwL4AQX0RAifGgEHXDDrKXhKBccqtTWoiS4bRwEnTGP8Qs9k+Ad6+vqU3+2WE6ACLKL+AnwWm5pOf2qrWbbUH+SEaXBvmvxD5K/t7KxFAPAMMH0E/BEfcKNAjQCLqLPAgQJ5CPeXfUQB5BwwRJC+tlbzD6T5+9iPCaDAzQFUsE3Ho7Lj6HNRINeg5n7lZxQE/fAPacCPgubmZrx/0A/6+jnB98hHuH2UIEeAgo16Cz6iQFuDD5XP/WDar/SM5h8gv9A/AhxQzwGX3JfECLAGhgpoBBfbUDDql3QRtV0iAPD793DBgwcPyM8N9UAW0BryGhgoWMqH8K2tZunr00rPAcoPWE9IfWNjoyyoUgU7DBdgEZ9Uvm7iAH+aXxbcvHmTA7SGxkdcAKqqqrQAWgPjBTU/2rO3kCbDOI7jM12Yw6btIqKIEDoQFQykCKJGoBQhZARFqaSU2CarrIiK1lFSWUkaUeGqi1xRCJVtaLq01WY1TCGX2kGrrTLNsK3NPEH///955rvoau863Ow773+f930f5qYg0FUcPlxRAfsHDpw/AO0/ELRfXMzmsy9ezL64ffteiADQti1cEB0fmsBeqUUBHYMstdbs1lVQsM33obR9aUexYhCAIftsdnb2dmgvhgIi0DnEYxCe4KtO2CdCfn5aGt8nQEFBAeyDAAsGbMllgnkhfXNdnWK/IQj06nrzBxAggSHyIQEAIYATSAAV7iokQu4W9hDmixGkkOC73vDRbEdBvlAa9Pt+MKBwHJCLgOj4EAUfBEEWCnJ0OhBUCPsESC1OLS4qLioqYAkEFKAhEw2ZOwEQEyVCsDplMjsGBrdjsw7K1wXtq46qUuHyiyC+zwBYeTnbx+AWoAAOYniCczoM13kqVSpUxOIAvPhyBOwFAoaATLoF0fNFCN6uTvnKBHVmRzoC0nQwjQjVr/tFBdnb4St2TanFct9SAwKIABgXJIUkmPWbwE0ClYquHgBckAz7a4rWFJy0NFQ1d3RIscaacgoAhVwQTcdAvECvrnPUgyAddmld2F9DFdzr6LRapdLm5uaOzl79+xYClOcV5gm3AI6BSAHcAr3B5LCnQyqdiu9TyclrWMm9To+131n3cWxs7PnzK1Oq8C4gAAoIFokVbOaCHBIEEvapZy6jbWzFslMTJsAf/lekOBpqoPLTBIBXHjyDmKRQBRm/CPyOtnRK2A8CLP9ilI0t2wGtW7t06+Jv/pYaTqCYIF6c4BsJ1CDYRPvpNJ+O+8m0TWlcMtmRjRvX79iz8uCL12UZTS1IOA0JADoG4gV1bkcyClLZiwGUCKCeOYd8Lw6+gHG1q99q9XtIIBgAELMoRMGk1Rn1dkHQ5HCDAGIHkKJ9SvPFNmQywLa0Pa42Jjo6VtoCldaUAgANp1GQFKpgyrgAjgEIviqVYEhOhR/aF27A7pIcl2zI1g7rtbVxce1dXV2tLUSAmCEGihcrqKeD2OTQKoFAcQCfh3LshiF5bBcLIXl5FgRQDIDHQIygLkigVyIhPbCvXK7EfazkxjuTDAD4BPJ25sKHwiWZDRaLpcVSykJB7TyRghQS0NsBAniIWT4O6Lkx2eu31UbvzM2FefxEltmIAkurpbUVBTGl8HiSxAk+MoHaYBpsU1LJyiCAIPC6Y2Ow2lo4B30J0gYigIAMtVB8eIIm/6CG75MDHoFGwwElPdXv3F63KTa2rzshYXR0YGAgoQGC35H3W1l4QiXiBTkk8CqVYCAEpVmuYQAQ9FTbtW4vTFOjcmtVA3WfYoR54gVaEnj9HDC+D+E+CXpysuqHBwaGh2z9nQ8eVEGw39h4nxcHJYkWmLV4EI1eEywGE7ASTUDQlpPz48cz6AFURQGB4oT4kAVRk38RDGrHBZtYAcA1qKcNesYFnNBY1RgorjEuLio8gdM4qEbBJpgXKjmE+1RbMIEbmnntze3t7fMkoTcno17dJAh+aDQ0mw6vTYewa4f4/EMIAJs3A+DTp08A6KACAmyBGIHZBIIMs/Z9lgsEbQTAcUogPGSBAAIBxgnSDimrq2thGIK6H19cTt9gSWBdd4u6jj28/pB3fAP2+fNn2O+kpJ18PhaTiBG4QWBiApvPy+ZpnPaZ4BF1nCIC1NvLCFYM1/v6+haGIXAYSOAfX7996zb1SFinvkPvoV7MSuG2QtHd3T1TIqapIDAGBF7Tdep2oGPQHeoEq7q6GghZX6B+yOPxKGg8ISFhdqJErMDABU7bSB3N0zQf5+u8yurKykq9Xu9yuWidb89MTJwRJRHZNL8RBGaHsxcF6keB8asvqbsvX1GXWLivVrucTpvNhtvymYnTZ0yShNUsk9Ep86Gg3ykbyXoEl0zL0BnoMcbW37y5YVerDbQul8tnJyZOh+3wm9RktMl95kEQ2GQjx3GebV+gLsP/Mp88efLmzevXZQZDk9Eog228cMmfa4GNBJ7OftvQyJ1Xrx4/hvGJE1dBly8/PULrZdo6HOfbf7oohXzU5xjxWD3dQz7Yh3lcnwDrweNz6YH/nRbGKkzeEYVV0T1sunkZCx6XsXHJXy1e6hseVsQqEobLnmDwzPn4XBFHXRxhgRU//cmHy2Ca7rrYbfEtlMI7a7dR/HWHX9QCqVTxf7YFQ5QkUqRIkSJFihQp0r/uJ4vggl2GQG+nAAAAAElFTkSuQmCC" alt="papka"></li>
+        <li class="section__item"><p class="section__lead">Amaliyot, real loyihalar va portfolio!</p></li>
+        <li class="section__item"><p class="section__text">Bizning kursimiz davomida o'quvchilar real loyihalarni tamomlab mijozga taqdim etishadi. Bundan yaxshiroq amaliyot bo'lmasa kerak! Va bu portfolio uchun juda foydali!</p></li>
+       </ul>
+       <hr>
+       <ul class="section__list" data-aos="zoom-out">
+        <li class="section__item"><img style="width: 165px ;height: 146;" src="https://www.it-time-academy.uz/assets/noutbuk-qP4QFp1X.png" alt="kompyuter img"></li>
+        <li class="section__item"><p class="section__lead">Zamonaviy muhit, bepul Coworking va Wi-fi</p></li>
+        <li class="section__item"><p class="section__text">It Time Academy o'quv markazi zamon talabiga javob beradigan barcha imkoniyatlar va texnologiyalar bilan jihozlangan. Bularning barchasi bizning o'quvchilarimiz uchun bepul!</p></li>
+       </ul>
+       <hr>
+       <ul class="section__list" data-aos="zoom-out">
+        <li class="section__item"><img style="width: 165px ;height: 146;" src="https://www.it-time-academy.uz/assets/sertifikat-BXEiYvyd.png" alt="qalqon"></li>
+        <li class="section__item"><p class="section__lead">Sertifikat</p></li>
+        <li class="section__item"><p class="section__text">It Time Academy kurslarini muvaffaqiyatli tamomlagan barcha o'quvchilarga Sertifikat taqdim etiladi!</p></li>
+       </ul>
+       <hr>
+    </div>
+</div>
+<!-- ==========================================SERVICE======================================================== -->
+<div class="service">
+    <div class="container service__container">   
+        <h1 class="service__title">O`quvchilarimiz fikrlari </h1> 
+    <ul class="service__list">
+    <span><li  class="service__item" data-aos="zoom-out"><iframe  src="https://www.youtube.com/embed/s0d2_ne-Pls?si=oUcJFaw99vU0wd5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    <span class="service__span"><p class="service__lead">Davron Rutsamjonov</p>
+    <p class="service__text">"Frontend" kursi bitiruvchisi</p></span></span>
+    <span><li  class="service__item" data-aos="zoom-out"><iframe  src="https://www.youtube.com/embed/s0d2_ne-Pls?si=oUcJFaw99vU0wd5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    <span class="service__span"><p class="service__lead">Davron Rutsamjonov</p>
+    <p class="service__text">"Frontend" kursi bitiruvchisi</p></span></span>
+    <span><li  class="service__item" data-aos="zoom-out"><iframe  src="https://www.youtube.com/embed/s0d2_ne-Pls?si=oUcJFaw99vU0wd5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    <span class="service__span"><p class="service__lead">Davron Rutsamjonov</p>
+    <p class="service__text">"Frontend" kursi bitiruvchisi</p></span></span>
+    <span><li  class="service__item" data-aos="zoom-out"><iframe  src="https://www.youtube.com/embed/s0d2_ne-Pls?si=oUcJFaw99vU0wd5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    <span class="service__span"><p class="service__lead">Davron Rutsamjonov</p>
+    <p class="service__text">"Frontend" kursi bitiruvchisi</p></span></span>
+    <span><li  class="service__item" data-aos="zoom-out"><iframe  src="https://www.youtube.com/embed/s0d2_ne-Pls?si=oUcJFaw99vU0wd5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    <span class="service__span"><p class="service__lead">Davron Rutsamjonov</p>
+    <p class="service__text">"Frontend" kursi bitiruvchisi</p></span></span>
+    <span><li  class="service__item" data-aos="zoom-out"><iframe  src="https://www.youtube.com/embed/s0d2_ne-Pls?si=oUcJFaw99vU0wd5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+    <span class="service__span"><p class="service__lead">Davron Rutsamjonov</p>
+    <p class="service__text">"Frontend" kursi bitiruvchisi</p></span></span>
+</ul>
+</div>
+</div>
+<!-- ==================================================APP================================================== -->
+<div class="app">
+    <div class="container app__container">
+        <h1 class="app__title">O'z sohangizni tanlang</h1>
+        <ul class="app__list">
+    
+            <li class="app__item"data-aos="fade-up"
+            data-aos-duration="3000" >
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+
+            <li class="app__item"data-aos="fade-up"
+            data-aos-duration="3000" >
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+            <li class="app__item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+
+            <li class="app__item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+
+            <li class="app__item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+            <li class="app__item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+            <li class="app__item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+            <li class="app__item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+            <li class="app__item" data-aos="fade-up"
+            data-aos-duration="3000">
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+            <li class="app__item" data-aos="fade-up"
+            data-aos-duration="3000" >
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+
+            <li class="app__item"  data-aos="fade-up"
+            data-aos-duration="3000">
+                <img width="306" height="233" src="./images/Marketing.jpg" alt="O`quv kursi "><br>
+                <span class="app__span">
+                <span  class="fa fa-star "></span>
+                <p class="app__frist-text">  Muddatli to`lov</p></span>
+                
+            <span><img class="span__img" src="/images/red-bg.png" alt="bg"></span>
+            <p class="app__lead">Marketing</p>
+            <p class="app__text">Narxi</p>
+            <p class="app__next-text">1300 000 so`mdan </p>
+            <p ><img src="/images/time_icon.png"width="20"height="20" alt="logo">  8 oy</p>
+            </li>
+         </ul>
+      
+    </div>
+</div>
+<!-- =======================================ABOUT======================================= -->
+<div class="about">
+    <div class=" container about__container">
+    <ul class="about__list" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+        <p class="about__lead">IT - bu kelajak, zamonaviy kasblardan birini IT Time Academy bilan tajribali ustozlardan o'rganing!</p>
+        <nav class="about__nav">
+            <li class="about__item"><img src="./images/about__img1.png" alt=" zamonayiv kasblar"></li>
+            <li class="about__item"><img src="./images/about__img2.png" alt=" zamonayiv kasblar"></li>
+            <li class="about__item"><img src="./images/about__img3.png" alt=" zamonayiv kasblar"></li>
+        </nav>
+    </ul>
+    <ul class="about__next-list" data-aos="fade-left"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
+  <p class="about__lead">Bepul konsultatsiya</p>
+  <p class="about__text">Telefon raqamingizni yozib qoldiring, biz Siz bilan bog'lanamiz va barcha savollaringizga javob beramiz!
+  <form action="#">
+    <input class="about__input-text"  type="text" name="Neme" id="" placeholder="Ismingizni kiriting"><br><br>
+    <input class="about__input-number"  type="number" placeholder="+998" ><br><br>
+    <button class="about__input-btn"> Yuborish </button>
+  </form>
+  </p>
+    </ul>
+    </div>
+</div>
+<!-- =======================================MENU====================================== -->
+<div class="menu">
+    <div class="container menu__container">
+        <h1 class="menu__title">Bizning mentorlarimiz</h1>
+        <div class="menu__wrapper">
+        
+        <ul class="menu__list"  data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <li class="menu__item">
+            <nav class="menu__nav">
+            <img class="menu__pic" data-aos="zoom-in-down" src="/images/Islom-BAT4FK3F.png" alt="Rahimjonov Islombek" >
+            <span><p class="menu__lead">Rahimjonov Isolmbek</p> 
+            <p class="menu__text">Mentor: Frontend dasturchi</p></span> 
+            </nav>
+            <p class="menu__next-text">Tajribasi:1.5 yil . Til bo`yicha darjasi: rus tili B1 . Qo`shimcha ma`lumotlar:Talaba (TATU 4-kurs)</p>
+            </li>
+        </ul>
+        <ul class="menu__list"  data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <li class="menu__item">
+            <nav class="menu__nav">
+            <img class="menu__pic" data-aos="zoom-in-down" src="/images/Islom-BAT4FK3F.png" alt="Rahimjonov Islombek" >
+            <span><p class="menu__lead">Rahimjonov Isolmbek</p> 
+            <p class="menu__text">Mentor: Frontend dasturchi</p></span> 
+            </nav>
+            <p class="menu__next-text">Tajribasi:1.5 yil . Til bo`yicha darjasi: rus tili B1 . Qo`shimcha ma`lumotlar:Talaba (TATU 4-kurs)</p>
+            </li>
+        </ul>
+        <ul class="menu__list"  data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <li class="menu__item">
+            <nav class="menu__nav">
+            <img class="menu__pic" data-aos="zoom-in-down" src="/images/Islom-BAT4FK3F.png" alt="Rahimjonov Islombek" >
+            <span><p class="menu__lead">Rahimjonov Isolmbek</p> 
+            <p class="menu__text">Mentor: Frontend dasturchi</p></span> 
+            </nav>
+            <p class="menu__next-text">Tajribasi:1.5 yil . Til bo`yicha darjasi: rus tili B1 . Qo`shimcha ma`lumotlar:Talaba (TATU 4-kurs)</p>
+            </li>
+        </ul>
+
+    </div>
+
+    </div>
+</div>
+<!-- ======================================CARD========================================= -->
+<div class="card">
+    <div class="container card__container">
+        <h1 class="card__title">Qiziqarli raqamlar</h1>
+        <ul class="card__list">        
+            <p class="card__text">100  <br><span class="card__span"> dan ortiq mutaxasislar tayyorlaganmiz</span></p>
+             <hr class="card__hr">
+             <p class="card__text">10  <br><span class="card__span"> dan ortiq  kuchli mentorlar</span></p>
+            <hr class="card__hr">
+            <p class="card__text">6 <br><span class="card__span">mentorlarimiz tajribasi kamida 2 yil </span></p>
+        </ul>
+    </div>
+</div>
+<!-- =============================ACORDION=============================================== -->
+
+
+<h1 class="acordion__title">Ko`p beriladigan savollar</h1>
+<div class="accordions">
+	<div class="item">
+		<button id="accordion1" class="next-header" aria-expanded="true" aria-controls="content-1">
+			Kursni bitirganimdan keyin ish topa olamanmi?
+		</button>
+		<div id="content-1" class="panel" role="region" aria-labelledby="accordion1">
+			<p class="acordion__text">
+                
+                Ha albatta kursni muvaffaqiyatli tugatgan o'quvchilarimiz hozirda bir nechta kampaniyalarda ishlayapti.Siz ham shular qatorida bo'lishingiz mumkun
+			</p>
+		</div>
+	</div>
+	<div class="item">
+		<button id="accordion2" class="next-header" aria-expanded="true" aria-controls="content-2">
+	   Frontend yoki boshqa kurslarni tugatganman nima qilsam bo`oladi?
+		</button>
+		<div id="content-2" class="panel" role="region" aria-labelledby="accordion2">
+			<p class="acordion__text">
+				Biror bir kursni 100% to'liq tugatib ( masalan frontend bo'lsa JS advanced biror bir framework ) + gitda kamida ikkita loyihangiz bo'lsa ish uchun suhbatga chaqiramiz. Lekin chala yarim bitirgan bo'lsangiz Frontend kursni boshidan boshlab o'rgatamiz.
+			</p>
+		</div>
+	</div>
+	<div class="item">
+		<button id="accordion3" class="next-header" aria-expanded="true" aria-controls="content-3">
+		Flutterda dasturlashda qanday dizayn patternlardan foydalaniladi?
+		</button>
+		<div id="content-3" class="panel" role="region" aria-labelledby="accordion3">
+			<p class="acordion__text">
+				Flutterda Widget Tree, State Management, BLoC (Business Logic Component), MVVM (Model-View-ViewModel), Provider, GetX kabilardan foydalaniladi
+			</p>
+		</div>
+	</div>
+</div>
+<!-- ==================================PARTNERS================================= -->
+<div class="partners">
+    <div class="container partners__container">
+        <h1 class="partners__title"> Hamkorlarimiz </h1>
+  <ul class="partners__list">
+    <li class="partners__item"><img style="width: 200px;height: 100px;" src="/images/zamon-BYziiA9T.svg" alt="hamkorlarimiz logosi"></li>
+    <li class="partners__item"><img style="width: 100px;height: 100px;" src="/images/namangan-IStmQG79.jpg" alt="hamkorlarimiz logosi"></li>
+    <li class="partners__item"><img style="width: 150px;height: 100px;" src="/images/atayev-3V1djKAy.png" alt="hamkorlarimiz logosi" ></li>
+    <li class="partners__item"><img style="width: 100px;height: 100px;" src="/images/loyal-T6wEGNwi.png" alt="hamkorlarimiz logosi"></li>
+    <li class="partners__item"><img style="width: 100px;height: 100px;border-radius: 50%;" src="/images/itbilim-b7lKQeqw.jpg" alt="hamkorlarimiz logosi"></li>
+  </ul>
+    </div>
+</div>
+<!-- ==================================INFO========================================= -->
+<div class="info">
+    <div class="container info__container">
+        <ul class="info__list">
+            <li class="info__item">
+            <p class="info__lead">Yo'nalishni tanlay olmayapsizmi?</p>
+            <p class="info__text">Agar sizda format haqida savollaringiz bo'lsa yoki nimani tanlashni bilmasangiz, raqamingizni qoldiring va operatorlarimiz sizga qayta qo'ng'iroq qilishadi.</p>
+            </li>
+            <li class="info__item">
+                <form action="#">
+               <input class="about__input-text" type="text" placeholder="Ismingizni kiriting">     
+       <select class="about__input-number" name="#" id="" >
+        <option value="#">Mobilografiya</option>
+         <option value="#">IOS</option>
+        <option value="#">Frontend Internship</option>
+        <option value="#">Backend</option>
+        <option value="#">Frontend</option>
+        <option value="#">Marketting SMM</option>
+        <option value="#">Fluter</option>
+        <option value="#">Java Backend</option>
+        <option value="#">Grafik Dizayn</option>
+    </select>
+              <input class="about__input-number" type="number"placeholder="+998" >
+              <button class="about__input-btn">Kursga yozilish</button>
+
+</form>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- =================================FOOTER==================================== -->
+<div class="footer">
+    <div class="container footer__container" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+<ul class="header__list">
+<li class="header__item">
+    <img style="width: 160px;height: 56px;" src="images/LOGO6666-B-CaV6E4.png" alt="LOGO">
+</li>
+<nav class="header__nav">
+<li class="header__item"><a class="header__link" href="">Biz haqimizda </a></li>
+<li class="header__item"> <a class="header__link" href="">Kurslar </a></li>
+<li class="header__item"><a class="header__link" href="">Bepul darsga yozilish</a></li>
+</nav>
+<div class="footer__span">
+    <li><a href="#" class="footer__num">+998 94 782 00 92</p></li>
+    <nav class="footer__nav">
+        <li><img style="width: 60px;height: 65px;" src="./images/instagram-logo-BeGMpUX6.png" alt=""></li>
+        <li><img style="width: 75px;height: 60px;" src="./images/facebok-7b-6VL3x.jpg" alt=""></li>
+        <li><img style="width: 40px;height: 40px;" src="./images/telegram-5XtxYBIs.png" alt=""></li>
+        <li><img style="width: 40px;height: 40px;" src="./images/Youtube_logo-CNdlKTKJ.png" alt=""></li>
+    </nav>
+
+</div>
+<li class="header__next-item">
+
+
+</li>
+</ul>
+<hr class="footer__hr">
+<p class="footer__text">© It Time Acadmey 2021 - 2024 All rights reserved</p>
+  
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+<script src="/main.js"></script>
+</body>
+</html>
