@@ -117,10 +117,6 @@
     transform: scaleX(1);
   }
   
-  .header__link:hover::before,
-  .header__link:hover::after {
-    transform: scaleX(1);
-  }
 
   /*=============================================================HERO==========================================*/
 .hero{
