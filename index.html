@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="images/LOGO6666-B-CaV6E4.png" type="image/png" >
     <style>
         .swiper-container {
           width: 100%;
@@ -21,6 +22,18 @@
           justify-content: center;
           align-items: center;
         }
+        
+
+
+        select {
+            padding: 10px;
+            font-size: 16px;
+            background-color: rgba(255, 255, 255, 0.7); /* Arqa fon orqali matn o'qimasi */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
       </style>
     <title>IT-TIME ACADEMY</title>
 </head>
@@ -37,12 +50,20 @@
     </div>
 </li>
    <nav class="header__nav">
-    <li class="header__item"><a class="header__link" href="">Biz haqimizda </a></li>
-    <li class="header__item"> <a class="header__link" href="">Kurslar </a></li>
-    <li class="header__item"><a class="header__link" href="">Yangiliklar</a></li>
+    <li class="header__item"><a class="header__link" href="#" id="about" >Biz haqimizda </a></li>
+    <li class="header__item"> <a class="header__link" href="#" id="courses">Kurslar </a></li>
+    <li class="header__item"><a class="header__link" href="#" id ="news">Yangiliklar</a></li>
    </nav>
    <li class="header__next-item">
-    <button class="header__button">Bepul konsultatsiya</button>
+    <button class="header__button" id="header_btn">Bepul konsultatsiya</button>
+    <li>
+        <form action="#">
+            <select onchange="changeLanguage(this.value)" style="border: 50%;">
+                <option value="uz" >uz</option>
+                <option value="en" >eng</option>
+                <option value="ru" >ru</option>
+            </select>
+        </form>
    </li>
    </ul>
      </div>
@@ -54,9 +75,9 @@
     <div class="container hero__container">
     <ul class="hero__list">
         <li class="hero__item">
-            <h1 class="hero__title">Tajribaga asoslangan  <span style="color:rgb(198,2,5) ;">ishonchli</span> kelajak</h1>
-            <p class="hero__text">Qisqa muddatda o’z portfolioyingizga ega bo’ling</p>
-            <a  href="#" class="hero__link">Ariza qoldirish</a>
+            <h1 class="hero__title" id="hero_title">Tajribaga asoslangan  <span style="color:rgb(198,2,5) ;" id="hero_span">ishonchli</span> kelajak</h1>
+            <p class="hero__text" id="hero_text">Qisqa muddatda o’z portfolioyingizga ega bo’ling</p>
+            <a  href="#" class="hero__link" id="hero_link">Ariza qoldirish</a>
         </li>
         <li class="hero__item">
 <img  style="width: 625px;height: 330px;" src="https://www.it-time-academy.uz/assets/banner-CFijwyVo.png" alt="IT TIME Yonalishlar">
@@ -69,7 +90,7 @@
 <!-- =============================================SECTION====================================================== -->
 <div class="section">
     <div class="container section__container">
-        <h1 class="section__title">Nega aynan biz?</h1>
+        <h1 class="section__title" id="section_title">Nega aynan biz?</h1>
         <hr>
        <ul class="section__list" data-aos="zoom-out">
         <li class="section__item"><img src="https://www.it-time-academy.uz/assets/card-jpe5Favb.png" alt="plastik karta"></li>

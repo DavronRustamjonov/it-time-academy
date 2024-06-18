@@ -42,7 +42,6 @@
 			});
 		});
 
-		// TODO: Add keyboard support
 	}
 
 	togglePanel(panel, show) {
@@ -57,3 +56,48 @@
 }
 
 const accordions = new Accordions(document.querySelector(".accordions"));
+
+function changeLanguage(lang) {
+    var aboutElement = document.getElementById("about");
+    var coursesElement = document.getElementById("courses");
+    var newsElement = document.getElementById("news");
+    var header_btn = document.getElementById("header_btn");
+    var hero_title = document.getElementById("hero_title");
+    var hero_span = document.getElementById("hero_span");
+    var hero_text = document.getElementById("hero_text");
+    var hero_link = document.getElementById("hero_link");
+    var section_title = document.getElementById("section_title");
+
+    if (lang === 'en') {
+        aboutElement.innerHTML = "About Us";
+        coursesElement.innerHTML = "Courses";
+        newsElement.innerHTML = "News";
+        header_btn.innerHTML = "Free consultation";
+        hero_title.innerHTML = "A reliable future based on experience";
+        hero_text.innerHTML = "Get your portfolio in a short period";
+        hero_link.innerHTML = "Submit Request";
+        section_title.innerHTML = "Why Us?";
+        
+    } else if (lang === 'ru') {
+        aboutElement.innerHTML = "O нас";
+        coursesElement.innerHTML = "Курсы";
+        newsElement.innerHTML = "Новости";
+        header_btn.innerHTML = "Бесплатная консультация";
+        hero_title.innerHTML = "Надежное будущее, основанное на опыте";
+        hero_text.innerHTML = "Владейте своим портфолио в короткие сроки";
+        hero_link.innerHTML = "Подать запрос";
+        section_title.innerHTML = "Почему мы?";
+        
+    } else {
+        aboutElement.innerHTML = "Biz haqimizda";
+        coursesElement.innerHTML = "Kurslar";
+        newsElement.innerHTML = "Yangiliklar";
+        header_btn.innerHTML = "Bepul konsultatsiya";
+        hero_title.innerHTML = "Tajribaga asoslangan ishonchli kelajak";
+        hero_text.innerHTML = "Qisqa muddatda o'z portfolioyingizga ega bo'ling";
+        hero_link.innerHTML = "Ariza qoldirish";
+        section_title.innerHTML = "Nega aynan biz?";
+    }
+}
+
+
